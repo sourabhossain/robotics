@@ -102,4 +102,80 @@ nav .container .menu a {
 .main .container .mainInfo .btn {
   margin: 20px 0;
 }
+
+.products {
+  width: 100%;
+  padding: 80px 0;
+}
+
+.products .title {
+  text-align: center;
+}
+
+.products .title h2 {
+  font-size: 34px;
+}
+
+.products .title p {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 13px;
+}
+
+.products .container {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.products .container .card {
+  width: 100%;
+  max-width: 23%;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+          box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+}
+
+.products .container .card:hover .cardInfo .btn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
+  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  color: #ffffff;
+}
+
+.products .container .card .cardBg {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 26px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.products .container .card .cardInfo {
+  text-align: center;
+  padding: 18px;
+  background: #f9f9ff;
+}
+
+.products .container .card .cardInfo p {
+  margin: 13px 0;
+  color: #777777;
+  line-height: 1.5;
+}
+
+.products .container .card .cardInfo .btn {
+  background: #ffffff;
+  color: #000000;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
 /*# sourceMappingURL=style.css.map */
