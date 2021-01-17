@@ -58,6 +58,7 @@ nav {
         display: flex;
         align-self: center;
         justify-content: space-between;
+
         .menu {
             a {
                 text-decoration: none;
@@ -75,12 +76,14 @@ nav {
     min-height: 100vh;
     background: url(../img/banner-bg.jpg) no-repeat center/cover;
     display: flex;
+
     .container {
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: $wt;
+
         .mainInfo {
             h2 {
                 font-size: 68px;
@@ -94,6 +97,75 @@ nav {
 
             .btn {
                 margin: 20px 0;
+            }
+        }
+    }
+}
+
+.products {
+    width: 100%;
+    padding: 80px 0;
+
+    .title {
+        text-align: center;
+
+        h2 {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 14px;
+            color: $grey;
+            margin-top: 13px;
+        }
+    }
+
+    .container {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            width: 100%;
+            max-width: 23%;
+            box-shadow: $boxshadow;
+            &:hover {
+                .cardInfo {
+                    .btn {
+                        background: $gradient;
+                        color: $wt;
+                    }
+                }
+            }
+
+            .cardBg {
+                background: $wt;
+                display: flex;
+                justify-content: center;
+                padding: 26px 0;
+                border-bottom: 1px solid $bdc;
+            }
+
+            .cardInfo {
+                text-align: center;
+                padding: 18px;
+                background: $greybg;
+
+                p {
+                    margin: 13px 0;
+                    color: $grey;
+                    line-height: 1.5;
+                }
+
+                .btn {
+                    background: $wt;
+                    color: $bl;
+                    transition: none;
+                    -webkit-transition: none;
+                    -moz-transition: none;
+                    -ms-transition: none;
+                    -o-transition: none;
+}
             }
         }
     }
