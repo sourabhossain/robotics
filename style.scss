@@ -17,9 +17,9 @@ $gradient: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
 
 .container,
 .wrapper {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -31,16 +31,17 @@ $gradient: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
     border: 1px solid $greybg;
     font-size: 14px;
     font-weight: 600;
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
-    -ms-border-radius:4px;
-    -o-border-radius:4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
     transition: background 800ms, color 800ms, border 800ms;
     -webkit-transition: background 800ms, color 800ms, border 800ms;
     -moz-transition: background 800ms, color 800ms, border 800ms;
     -ms-transition: background 800ms, color 800ms, border 800ms;
     -o-transition: background 800ms, color 800ms, border 800ms;
+
     &:hover {
         background: transparent;
         border: 1px solid $wt;
@@ -129,6 +130,7 @@ nav {
             width: 100%;
             max-width: 23%;
             box-shadow: $boxshadow;
+
             &:hover {
                 .cardInfo {
                     .btn {
@@ -165,7 +167,7 @@ nav {
                     -moz-transition: none;
                     -ms-transition: none;
                     -o-transition: none;
-}
+                }
             }
         }
     }
