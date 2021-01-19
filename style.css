@@ -369,4 +369,37 @@ nav .container .menu a {
   color: #777777;
   line-height: 1.4;
 }
+
+.sponsors {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.sponsors .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sponsors .container img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+  -webkit-transition: -webkit-filter 0.700ms;
+  transition: -webkit-filter 0.700ms;
+  transition: filter 0.700ms;
+  transition: filter 0.700ms, -webkit-filter 0.700ms;
+  -webkit-transition: filter 0.700ms;
+  -moz-transition: filter 0.700ms;
+  -ms-transition: filter 0.700ms;
+  -o-transition: filter 0.700ms;
+}
+
+.sponsors .container img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
 /*# sourceMappingURL=style.css.map */

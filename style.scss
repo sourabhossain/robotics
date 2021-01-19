@@ -347,3 +347,29 @@ nav {
         }
     }
 }
+
+.sponsors {
+    width: 100%;
+    padding: 100px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            cursor: pointer;
+            transition: filter 0.700ms;
+            -webkit-transition: filter 0.700ms;
+            -moz-transition: filter 0.700ms;
+            -ms-transition: filter 0.700ms;
+            -o-transition: filter 0.700ms;
+
+            &:hover {
+                filter: grayscale(0);
+                -webkit-filter: grayscale(0);
+            }
+        }
+    }
+}
