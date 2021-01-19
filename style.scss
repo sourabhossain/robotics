@@ -275,3 +275,75 @@ nav {
         }
     }
 }
+
+.features {
+    padding: 100px 0;
+    width: 100%;
+    background: url("./img/feature-bg.jpg") no-repeat center/cover;
+    
+    .title {
+        text-align: center;
+        color: $wt;
+
+        h2 {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 13px;
+        }
+    }
+
+    .container {
+        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .featureCard {
+            width: 100%;
+            max-width: 31%;
+            background: $greybg;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            padding: 40px 30px;
+            cursor: pointer;
+            margin: 16px 0;
+
+            &:hover {
+                .cardTitle {
+                    i,
+                    h3 {
+                        color: $blue;
+                        transition: color 700ms;
+                        -webkit-transition: color 700ms;
+                        -moz-transition: color 700ms;
+                        -ms-transition: color 700ms;
+                        -o-transition: color 700ms;
+                    }
+                }
+            }
+
+            .cardTitle {
+                display: flex;
+                align-items: center;
+
+                i {
+                    margin-right: 8px;
+                }
+            }
+
+            .cardDesc {
+                p {
+                    margin-top: 18px;
+                    color: $grey;
+                    line-height: 1.4;
+                }
+            }
+        }
+    }
+}

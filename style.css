@@ -294,4 +294,79 @@ nav .container .menu a {
   color: #ffffff;
   cursor: pointer;
 }
+
+.features {
+  padding: 100px 0;
+  width: 100%;
+  background: url("./img/feature-bg.jpg") no-repeat center/cover;
+}
+
+.features .title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.features .title h2 {
+  font-size: 34px;
+}
+
+.features .title p {
+  font-size: 14px;
+  margin-top: 13px;
+}
+
+.features .container {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features .container .featureCard {
+  width: 100%;
+  max-width: 31%;
+  background: #f9f9ff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 40px 30px;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+.features .container .featureCard:hover .cardTitle i,
+.features .container .featureCard:hover .cardTitle h3 {
+  color: #8a90ff;
+  transition: color 700ms;
+  -webkit-transition: color 700ms;
+  -moz-transition: color 700ms;
+  -ms-transition: color 700ms;
+  -o-transition: color 700ms;
+}
+
+.features .container .featureCard .cardTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features .container .featureCard .cardTitle i {
+  margin-right: 8px;
+}
+
+.features .container .featureCard .cardDesc p {
+  margin-top: 18px;
+  color: #777777;
+  line-height: 1.4;
+}
 /*# sourceMappingURL=style.css.map */
