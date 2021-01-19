@@ -178,4 +178,120 @@ nav .container .menu a {
   -ms-transition: none;
   -o-transition: none;
 }
+
+.connect {
+  width: 100%;
+}
+
+.connect .container {
+  max-width: 100%;
+}
+
+.connect .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 0;
+}
+
+.connect .container .card .connectBg {
+  width: 100%;
+  max-width: 50%;
+  height: 500px;
+  background: url("./img/about-img.png") no-repeat center/cover;
+}
+
+.connect .container .card .connectInfo {
+  width: 100%;
+  max-width: 50%;
+  padding: 0 26px;
+}
+
+.connect .container .card .connectInfo span {
+  color: #8a90ff;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.connect .container .card .connectInfo h2 {
+  font-size: 36px;
+}
+
+.connect .container .card .connectInfo p {
+  color: #777777;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.connect .container .card .connectInfo p:first-of-type {
+  margin: 16px 0;
+  color: #000000;
+  line-height: 1;
+}
+
+.connect .container .card .connectInfo .btn {
+  margin-top: 14px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
+  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  color: #ffffff;
+  border: 1px solid transparent;
+  padding: 14px 34px;
+}
+
+.connect .container .card .connectInfo .btn:hover {
+  color: #8a90ff;
+  background: #ffffff;
+  border: 1px solid #8a90ff;
+}
+
+.connect .container .card.second {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 60px 0 100px 0;
+}
+
+.connect .container .card.second .connectInfo {
+  max-width: 50%;
+}
+
+.connect .container .card.second .connectBg {
+  height: 320px;
+  background: url("./img/video-bg.jpg") no-repeat center/cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+}
+
+.connect .container .card.second .connectBg .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
+  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  opacity: 0.7;
+}
+
+.connect .container .card.second .connectBg i {
+  margin: auto;
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

@@ -172,3 +172,106 @@ nav {
         }
     }
 }
+
+.connect {
+    width: 100%;
+    
+    .container {
+        max-width: 100%;
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 0;
+
+            .connectBg {
+                width: 100%;
+                max-width: 50%;
+                height: 500px;
+                background: url("./img/about-img.png") no-repeat center/cover;
+            }
+
+            .connectInfo {
+                width: 100%;
+                max-width: 50%;
+                padding: 0 26px;
+
+                span {
+                    color: $blue;
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                    display: block;
+                }
+
+                h2 {
+                    font-size: 36px;
+                }
+
+                p {
+                    color: $grey;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 1.6;
+
+                    &:first-of-type {
+                        margin: 16px 0;
+                        color: $bl;
+                        line-height: 1;
+                    }
+                }
+
+                .btn {
+                    margin-top: 14px;
+                    background: $gradient;
+                    color: $wt;
+                    border: 1px solid transparent;
+                    padding: 14px 34px;
+
+                    &:hover {
+                        color: $blue;
+                        background: $wt;
+                        border: 1px solid $blue;
+                    }
+                }
+            }
+
+            &.second {
+                flex-direction: row-reverse;
+                width: 100%;
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 60px 0 100px 0;
+
+                .connectInfo {
+                    max-width: 50%;
+                }
+
+                .connectBg {
+                    height: 320px;
+                    background: url("./img/video-bg.jpg") no-repeat center/cover;
+                    position: relative;
+                    display: flex;
+                    max-width: 50%;
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        background: $gradient;
+                        opacity: 0.7;
+                    }
+
+                    i {
+                        margin: auto;
+                        position: relative;
+                        color: $wt;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
