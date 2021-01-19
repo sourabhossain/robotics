@@ -480,4 +480,171 @@ nav .container .menu a {
 .blog .container .blogCard .blogInfo .desc span {
   font-size: 14px;
 }
+
+footer {
+  width: 100%;
+  background: url("./img/footer-bg.jpg") no-repeat center/cover;
+}
+
+footer .container {
+  padding: 100px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container h2 {
+  color: #ffffff;
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+footer .container .footerCard {
+  width: 100%;
+  max-width: 23%;
+}
+
+footer .container .footerCard.cardone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .footerCard.cardone a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: 200;
+  margin-bottom: 10px;
+  -webkit-transition: color 600ms;
+  transition: color 600ms;
+}
+
+footer .container .footerCard.cardone a:hover {
+  color: #8a90ff;
+}
+
+footer .container .footerCard.cardtwo {
+  max-width: 50%;
+}
+
+footer .container .footerCard.cardtwo p {
+  color: #eeeeee;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+footer .container .footerCard.cardtwo .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+footer .container .footerCard.cardtwo .email input {
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  width: 60%;
+  margin-right: 24px;
+}
+
+footer .container .footerCard.cardtwo .email .btn {
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
+  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+footer .container .footerCard.cardtwo .email .btn:hover {
+  background: #8a90ff;
+}
+
+footer .container .footerCard.cardtwo .email .btn i {
+  margin-left: 5px;
+}
+
+footer .container .footerCard.cardthree .imgWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .footerCard.cardthree .imgWrap img {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+footer .wrapper {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0;
+}
+
+footer .wrapper .copyright p {
+  color: #eeeeee;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+footer .wrapper .copyright p i {
+  color: #8a90ff;
+}
+
+footer .wrapper .copyright p a {
+  text-decoration: none;
+  color: #8a90ff;
+}
+
+footer .wrapper .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .wrapper .icons .box {
+  background: #111111;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+footer .wrapper .icons .box:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
+  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+
+footer .wrapper .icons .box i {
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
